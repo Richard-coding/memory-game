@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #333;
+  background-color: #181818;
   user-select: none;
 }
 
@@ -37,8 +37,8 @@ body {
 }
 
 .reset:focus {
-  color: #fc1e8a;
-  background-color: #262909;
+  color: #fff;
+  background-color: #000;
 }
 
 .game {
