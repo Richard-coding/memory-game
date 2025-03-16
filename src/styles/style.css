@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #fc1e8a;
+  background-color: #333;
   user-select: none;
 }
 
@@ -14,15 +14,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  background: linear-gradient(
-    325deg,
-    #03001e 0%,
-    #7303c0 30%,
-    #ec38bc 70%,
-    #fdeff9 100%
-  );
   padding: 40px 60px;
-
+  border: 1px solid white;
   h2 {
     font-size: 3rem;
     color: #fff;
@@ -76,7 +69,6 @@ body {
   position: absolute;
   inset: 0;
   background: #404040;
-  opacity: 0.5;
   transition: 0.25s;
   transform: rotateY(0deg);
   backface-visibility: hidden;
